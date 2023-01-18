@@ -8,7 +8,7 @@ const Calorias = require('../models/Calorias');
 class CaloriasDAO_Mongoose extends ICaloriasDAO{
 
    constructor(){ super();
-  mongoose.connect('mongodb+srv://vaguetti:dwm20221@cluster0.004qy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{
+  mongoose.connect('mongodb+srv://ifmais:ifplus@ifmaissaude.pso22sz.mongodb.net/ifmaiscalorias?retryWrites=true&w=majority',{
      useNewUrlParser: true,
      useUnifiedTopology: true
 });
